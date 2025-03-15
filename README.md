@@ -41,8 +41,6 @@ Ha szeretnél hozzájárulni a fejlesztéshez:
 4. Pushold fel a branch-et: `git push origin feature/uj-funkcio`
 5. Nyiss egy Pull Requestet!
 
-## Licenc
-Ez a projekt az **MIT licenc** alatt van kiadva. Részletek a [LICENSE](LICENSE) fájlban.
 
 ---
 # GameBar
@@ -87,8 +85,4 @@ If you want to contribute:
 3. Make your changes and commit: `git commit -m "Added new feature"`
 4. Push the branch: `git push origin feature/new-feature`
 5. Open a Pull Request!
-
-## License
-This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
-
 ---
