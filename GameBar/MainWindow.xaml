@@ -1,0 +1,33 @@
+﻿<Window x:Class="Gamebar.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        Title="Gamebar" Height="600" Width="1200"
+        Background="{DynamicResource MaterialDesignPaper}"
+        Style="{DynamicResource MaterialDesignWindow}"
+        Icon="/Assets/ico.ico">
+
+    <Grid>
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,20,0,0">
+            <TextBlock Text="W e l c o m e   T o   T h e " FontSize="16" HorizontalAlignment="Center"
+                       Foreground="{DynamicResource MaterialDesignBody}" />
+            <TextBlock Text="GameBar" FontSize="50" FontWeight="Bold" HorizontalAlignment="Center"
+                       Foreground="{DynamicResource MaterialDesignBody}" />
+        </StackPanel>
+
+        <Button Name="btnDarkMode" Content="🌙 Dark Mode"
+                Width="150" Height="40"
+                HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="50,0,0,50"
+                Click="btnDarkMode_Click"
+                Style="{DynamicResource MaterialDesignFlatSecondaryDarkButton}"/>
+
+        <Button Name="btnFelderites" Content="🔍 Felderítés"
+                Width="150" Height="40"
+                HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,50,50"
+                Click="btnFelderites_Click"
+                Style="{DynamicResource MaterialDesignFlatSecondaryButton}"/>
+
+        <Grid Name="IconGrid" Margin="30,150,30,150">
+        </Grid>
+    </Grid>
+</Window>
